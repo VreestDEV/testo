@@ -1,0 +1,196 @@
+
+.Fondo {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgb(0, 0, 0)), url(./Imagenes/5168x3230_px_Arnold_Schwarzenegger_Barbell_Bodybuilder_bodybuilding_Dumbbells_Exercising_Gyms-525341.jpg!d);
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}    
+
+.Titulo {
+    font-size: 6vh;
+    font-style: italic;
+    color: white;
+    flex-direction: column;
+    bottom: 0;
+    top: 0;
+    margin-left: 0px;
+    margin-bottom: 0;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+
+.Parrafo {
+    font-size: 2vh;
+    color: white;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+.Parrafo:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 120% */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+
+.Primer-Parrafo-h1 {
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-right: 34vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Primer-Parrafo {
+    width: 52%;
+    margin-top: 2%;
+    margin-left: 10vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Imagen-rocky {
+    margin-top: 5%;
+    border-radius: 7%;
+    width: 20%;
+    float: left;
+    margin-left: 10vh;
+    margin-right: 40px;
+    width: 30vh;
+    height: 30vh;
+    margin-bottom: 40px;
+    
+}
+
+.Imagen-rocky-div {
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.Imagen-rocky-div:hover {
+    transform: scale(1.03); /* Aumenta el tamaño al 120% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Añade una sombra para mayor profundidad */
+}
+
+.Imagen-skabir {
+    height: 35vh;
+    margin-top: 24px;
+    float: right;
+    margin-bottom: 40px;
+    border-radius: 7%;
+    margin-right: 10vh;
+}
+
+.Segundo-Parrafo {
+    width: 35%;
+    margin-top: 2%;
+    margin-left: 10vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+}
+
+.Imagen-skabir-div {
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.Imagen-skabir-div:hover {
+    transform: scale(1.03); /* Aumenta el tamaño al 120% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Añade una sombra para mayor profundidad */
+}
+
+.Imagen-ProfeJuan {
+    border-radius: 7%;
+    width: 30%;
+    float: left;
+    margin-left: 10vh;
+    margin-right: 40px;
+    width: 32vh;
+    height: 32vh;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.Tercer-Parrafo {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 10vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Imagen-ProfeJuan-div {
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.Imagen-ProfeJuan-div:hover {
+    transform: scale(1.03); /* Aumenta el tamaño al 120% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Añade una sombra para mayor profundidad */
+}
+
+.Contenedor-Segundo-Titulo {
+    margin-top: 5px;
+    width: 191vh;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgb(0, 0, 0)), url(./Imagenes/david-goggins.avif);
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.FraseGoggins {
+    color: white;
+    margin-top: 40px;
+    font-size: 6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+        display: flex;
+    justify-content: center;
+    
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
